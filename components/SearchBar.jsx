@@ -3,7 +3,9 @@
 import { useContext, useState } from 'react';
 import { DarkMode } from '../src/App';
 
-import moon from '../src/assets/moon-dark.svg';
+import searchIconDark from '../src/assets/search-dark.svg';
+import searchIcon from '../src/assets/search-outline.svg';
+
 function SearchBar(props) {
   const { searchedCountry, setSearchedCountry } = props;
   const { mode } = useContext(DarkMode);
@@ -14,14 +16,14 @@ function SearchBar(props) {
         <img
           id="search-img"
           className={mode}
-          src="src/assets/search-outline.svg"
+          src={searchIcon}
           alt="search-icon"
         />
       ) : (
         <img
           id="search-img"
           className={mode}
-          src={moon}
+          src={searchIconDark}
           alt="search-icon"
         />
       )}

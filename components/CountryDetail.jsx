@@ -5,6 +5,9 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { DarkMode } from '../src/App';
 import NoData from './NoData';
 
+import backIcon from '../src/assets/arrow-back.svg';
+import backIconDark from '../src/assets/arrow-dark.svg';
+
 /* eslint-disable react/prop-types */
 function CountryDetail() {
   const [data, setData] = useState([]);
@@ -51,9 +54,9 @@ function CountryDetail() {
           onClick={() => navigate(-1)}
         >
           {mode === 'light' ? (
-            <img src="src/assets/arrow-back.svg" alt="back-image" />
+            <img src={backIcon} alt="back-image" />
           ) : (
-            <img src="src/assets/arrow-dark.svg" alt="back-image" />
+            <img src={backIconDark} alt="back-image" />
           )}
           <button className={mode}>Back</button>
         </div>

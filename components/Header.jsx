@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { DarkMode } from '../src/App';
 
+import moon from '../src/assets/moon-outline.svg';
+import darkMoon from '../src/assets/moon-dark.svg';
+
 function Header() {
   const { mode, setMode } = useContext(DarkMode);
 
@@ -23,15 +26,11 @@ function Header() {
       </Link>
       <div className="dark-mode" id="darkMode">
         {mode === 'light' ? (
-          <img
-            id="dark-mode-img"
-            src="src/assets/moon-outline.svg"
-            alt="darkmode-image"
-          />
+          <img id="dark-mode-img" src={moon} alt="darkmode-image" />
         ) : (
           <img
             id="dark-mode-img"
-            src="src/assets/moon-dark.svg"
+            src={darkMoon}
             alt="darkmode-image"
           />
         )}
