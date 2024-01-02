@@ -5,8 +5,8 @@ Welcome to React-Rest-Countries! This project is a React application built using
 ## Getting Started
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (>=14.0.0)
-- [npm](https://www.npmjs.com/) (>=6.0.0)
+- [Node.js](https://nodejs.org/) 
+- [npm](https://www.npmjs.com/) 
 
 ### Installation
 
