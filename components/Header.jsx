@@ -25,13 +25,13 @@ function Header() {
         {mode === 'light' ? (
           <img
             id="dark-mode-img"
-            src="/src/assets/moon-outline.svg"
+            src="src/assets/moon-outline.svg"
             alt="darkmode-image"
           />
         ) : (
           <img
             id="dark-mode-img"
-            src="/src/assets/moon-dark.svg"
+            src="src/assets/moon-dark.svg"
             alt="darkmode-image"
           />
         )}

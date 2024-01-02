@@ -13,14 +13,14 @@ function SearchBar(props) {
         <img
           id="search-img"
           className={mode}
-          src="/src/assets/search-outline.svg"
+          src="src/assets/search-outline.svg"
           alt="search-icon"
         />
       ) : (
         <img
           id="search-img"
           className={mode}
-          src="/src/assets/search-dark.svg"
+          src="src/assets/search-dark.svg"
           alt="search-icon"
         />
       )}

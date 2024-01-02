@@ -51,9 +51,9 @@ function CountryDetail() {
           onClick={() => navigate(-1)}
         >
           {mode === 'light' ? (
-            <img src="/src/assets/arrow-back.svg" alt="back-image" />
+            <img src="src/assets/arrow-back.svg" alt="back-image" />
           ) : (
-            <img src="/src/assets/arrow-dark.svg" alt="back-image" />
+            <img src="src/assets/arrow-dark.svg" alt="back-image" />
           )}
           <button className={mode}>Back</button>
         </div>
