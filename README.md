@@ -1,6 +1,6 @@
 # React-Rest-Countries
 
-Welcome to React-Rest-Countries! This project is a React application built using Vite that allows users to explore information about countries using a REST API.
+Welcome to React-Rest-Countries! This project is a React application built using Vite that allows users to explore information about countries using a REST API https://restcountries.com/
 
 ## Getting Started
 
