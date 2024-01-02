@@ -26,10 +26,9 @@ Welcome to React-Rest-Countries! This project is a React application built using
    npm install
 
 ### Development
+
 To run the app in development mode:
 
-    ```bash
     npm run dev
-
 
 This will start a development server using localhost.
