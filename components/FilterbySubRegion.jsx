@@ -20,8 +20,8 @@ function FilterBySubRegion(props) {
 
   let uniqueSubRegions = [...subRegions].sort();
 
-  console.log(region);
-  console.log(data);
+  // console.log(region);
+  // console.log(data);
 
   return (
     <div className={'dropdown ' + mode}>
